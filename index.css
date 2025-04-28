@@ -1,6 +1,49 @@
-body{
-    background-color: lightblue;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    --colordblue: #073763;
+    --colorlblue: #9fc5e8;
+    --colorwhite: white ;
+    --colorlgrey: #bcbcbc;
+    --colordgrey: #5b5b5b;
 }
-main{
-    background-color: lightcyan;
+
+.body{
+    font-family: "Montserrat", sans-serif;
+    background: var(--colordgrey);
+}
+
+.maindiv{
+    width:75rem;
+    background: var(--colorlgrey);
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+
+}
+.map{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.mapCon{
+    width: 60vw;
+    height: 60vh;
+}
+
+.mapDiv{
+    width: 100%;
+    height: 100%;
+    border: 3px solid #15181c;
+    border-radius: 5px;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
 }
