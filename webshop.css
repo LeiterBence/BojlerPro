@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #333;
+  }
+  
+  header {
+    background-color: var(--cnara);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .product-card {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--cnav);
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: var(--cnara);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:var(--cnara);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #e0e0e0;
+    margin-top: 40px;
+  }
+.product-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .left-column {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .right-column {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .product-card {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  /* Mobilnézet - oszlopos elrendezés */
+  @media (max-width: 768px) {
+    .product-layout {
+      flex-direction: column;
+    }
+  
+    .left-column, .right-column {
+      max-width: 100%;
+    }
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    --colorbg: #F5F5F5;
+    --csz: #1E1E1E ;
+    --cnav: #008B8B ;
+    --cnara: #FF6600 ;
+    --cfeh: #ffffff;
+}
+
+.body{
+    font-family: "Montserrat", sans-serif;
+    background: var(--colorbg);
+}
+.navbar{
+    background-color: var(--cnav);
+}
+.fter{
+    width: 60px;
+    background-color: #FF6600;
+    height: 2px;
+}
+.valami{
+    text-align: center;
+    background-color: #FF6600;
+    color: white;
+}
