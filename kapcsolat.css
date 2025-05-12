@@ -1,0 +1,50 @@
+:root {
+    --colorbg: #F5F5F5;
+    --csz: #1E1E1E;
+    --cnav: #008B8B;
+    --cnara: #FF6600;
+    --cfeh: #ffffff;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: var(--colorbg);
+    color: var(--csz);
+}
+
+.navbar {
+    background-color: var(--cnav);
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--cfeh) !important;
+}
+
+.fter {
+    width: 60px;
+    background-color: var(--cnara);
+    height: 2px;
+    margin: 0 auto 1rem;
+}
+
+.contact-section {
+    padding: 3rem 1rem;
+}
+
+.form-control,
+.btn {
+    border-radius: 0;
+}
+
+.btn-custom {
+    background-color: var(--cnara);
+    color: white;
+}
+
+footer {
+    background-color: var(--cnav);
+    color: var(--cfeh);
+    padding: 1rem 0;
+    text-align: center;
+}
