@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <style>
+        :root {
+          --colorbg: #F5F5F5;
+          --csz: #1E1E1E;
+          --cnav: #008B8B;
+          --cnara: #FF6600;
+          --cfeh: #ffffff;
+        }
+    
+        body {
+          font-family: "Montserrat", sans-serif;
+          background: var(--colorbg);
+          margin: 20px;
+        }
+    
+        table {
+          border-collapse: collapse;
+          width: 100%;
+          background-color: var(--cfeh);
+          color: var(--csz);
+        }
+    
+        thead tr {
+          background-color: var(--cnav);
+          color: var(--cfeh);
+        }
+    
+        tbody tr:nth-child(odd) {
+          background-color: #f0f0f0;
+        }
+    
+        tbody tr:nth-child(even) {
+          background-color: #e0e0e0;
+        }
+    
+        tbody tr:nth-child(5) {
+          background-color: var(--cnara) !important;
+          color: var(--cfeh);
+          font-weight: bold;
+        }
+    
+        th, td {
+          padding: 12px;
+          border: 1px solid #ccc;
+          text-align: left;
+        }
+    
+        h2 {
+          text-align: center;
+          color: var(--csz);
+        }
+    
+        .valami {
+          text-align: center;
+          background-color: var(--cnara);
+          color: var(--cfeh);
+          padding: 10px;
+          margin-bottom: 20px;
+        }
+      </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BojlerPro - Webshop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="webshop.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+
+<head>
+  <meta charset="UTF-8">
+  
+</head>
+<body>
+    <div class="body">
+      <div class="container maindiv">
+  
+          <div class="container-fluid p-5 text-center">
+              <h1>BojlerPro</h1>
+          </div>
+  
+          <div class="container-fluid navbar navbar-expand-sm justify-content-center">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="rolunk.html">Rólunk</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="webshop.html">Webshop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Hibajelzések</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
+                  </li>
+              </ul>
+          </div>
+<body>
+
+  <div class="valami">Bojler hibakódok táblázata</div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Hibakód</th>
+        <th>Jelenség</th>
+        <th>Teendő</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>E01</td>
+        <td>Túlmelegedés</td>
+        <td>Áramtalanítás, szerelő hívása</td>
+      </tr>
+      <tr>
+        <td>E02</td>
+        <td>Hőmérséklet-érzékelő hiba</td>
+        <td>Érzékelő csere szükséges</td>
+      </tr>
+      <tr>
+        <td>E03</td>
+        <td>Fűtőszál meghibásodás</td>
+        <td>Alkatrészcsere</td>
+      </tr>
+      <tr>
+        <td>E04</td>
+        <td>Víznyomás túl alacsony</td>
+        <td>Vízrendszer ellenőrzése</td>
+      </tr>
+      <tr>
+        <td>E05</td>
+        <td>Vízérzékelő hiba</td>
+        <td>Tisztítás vagy csere</td>
+      </tr>
+      <tr>
+        <td>E06</td>
+        <td>Áramellátási zavar</td>
+        <td>Biztosíték ellenőrzése</td>
+      </tr>
+      <tr>
+        <td>E07</td>
+        <td>Memóriahiba</td>
+        <td>Gyári visszaállítás szükséges</td>
+      </tr>
+      <tr>
+        <td>E08</td>
+        <td>Kommunikációs hiba a vezérlővel</td>
+        <td>Kábelkapcsolatok ellenőrzése</td>
+      </tr>
+      <tr>
+        <td>E09</td>
+        <td>Biztonsági szelep meghibásodás</td>
+        <td>Szelep csere, szakember hívása</td>
+      </tr>
+    </tbody>
+  </table>
+  <footer class="bg-dark text-light pt-5 pb-4">
+    <div class="container text-md-start">
+      <div class="row">
+  
+        <!-- Cég név és leírás -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+          <h5 class="text-uppercase fw-bold text-info">BojlerPro</h5>
+          <hr class="mb-3 mt-0 d-inline-block mx-auto fter"/>
+          <p>
+            Prémium bojlerek, szakértő tanácsadás és gyors kiszállítás. Meleg víz – biztonságosan és hatékonyan.
+          </p>
+        </div>
+  
+        <!-- Oldalak -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 ftdiv">
+          <h6 class="text-uppercase fw-bold">Oldalak</h6>
+          <hr class="mb-3 mt-0 d-inline-block mx-auto fter"/>
+          <p><a href="index.html" class="text-light text-decoration-none">Főoldal</a></p>
+          <p><a href="termekek.html" class="text-light text-decoration-none">Webshop</a></p>
+          <p><a href="galeria.html" class="text-light text-decoration-none">Galéria</a></p>
+          <p><a href="kapcsolat.html" class="text-light text-decoration-none">Kapcsolat</a></p>
+        </div>
+  
+        <!-- Elérhetőség -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold">Kapcsolat</h6>
+          <hr class="mb-3 mt-0 d-inline-block mx-auto fter"/>
+          <p>Budapest, Főtér 1.</p>
+          <p>info@bojlerpro.hu</p>
+          <p>+36 30 123 4567</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Copyright -->
+    <div class="text-center p-3 bg-secondary mt-4">
+      © 2025 BojlerPro Kft. – Minden jog fenntartva.
+    </div>
+  </footer>
+
+</body>
+</html>
