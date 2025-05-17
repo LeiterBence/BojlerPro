@@ -156,3 +156,48 @@
     background-color: #FF6600;
     color: white;
 }
+:root {
+  --colorbg: #F5F5F5;
+  --csz: #1E1E1E;
+  --cnav: #008B8B;
+  --cnara: #FF6600;
+  --cfeh: #ffffff;
+}
+
+.custom-section {
+  background-color: var(--colorbg);
+  color: var(--csz);
+  padding: 3rem 1.5rem;
+  border-radius: 10px;
+}
+
+.custom-section h1,
+.custom-section h2,
+.custom-section h3 {
+  color: var(--cnav);
+}
+
+.custom-section .highlight {
+  color: var(--cnara);
+  font-weight: bold;
+}
+
+.custom-section a {
+  color: var(--cnav);
+  text-decoration: underline;
+}
+
+.custom-section a:hover {
+  color: var(--cnara);
+}
+
+.section-heading {
+  color: var(--cnav);
+  font-weight: bold;
+}
+
+.final-call {
+  color: var(--cnara);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
