@@ -20,4 +20,7 @@
     background-color: #FF6600;
     height: 2px;
 }
-
+.navbar-brand,
+.nav-link {
+    color: var(--cfeh) !important;
+}
